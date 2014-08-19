@@ -1,0 +1,37 @@
+## cron-apt [![Build Status](https://travis-ci.org/Oefenweb/ansible-cron-apt.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-cron-apt)
+
+Set up cron-apt in Debian-like systems.
+
+#### Requirements
+
+None
+
+#### Variables
+
+* `cron_apt_mailto`: [default: `root`]: The email address to send mail to
+* `cron_apt_mailon`: [default: `upgrade`]: When to send email about the cron-apt results
+
+## Dependencies
+
+None
+
+#### Example
+
+```yaml
+---
+- hosts: all
+  roles:
+  - cron-apt
+```
+
+#### License
+
+MIT
+
+#### Author Information
+
+Mischa ter Smitten
+
+#### Feedback, bug-reports, requests, ...
+
+Are [welcome](https://github.com/Oefenweb/ansible-cron-apt/issues)!
