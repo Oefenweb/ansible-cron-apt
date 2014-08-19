@@ -1,0 +1,16 @@
+---
+# tasks file for cron-apt
+- name: install
+  apt:
+    name: cron-apt
+    state: present
+  tags: [configuration, cron-apt, cron-apt-install]
+
+- name: update configuration file
+  template:
+    src: etc/cron-apt/config.j2
+    dest: /etc/cron-apt/config
+    owner: root
+    group: root
+    mode: 0644
+  tags: [configuration, cron-apt, cron-apt-configuration]

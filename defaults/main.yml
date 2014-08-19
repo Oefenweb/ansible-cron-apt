@@ -1,0 +1,4 @@
+---
+# defaults file for cron-apt
+cron_apt_mailto: root
+cron_apt_mailon: upgrade
