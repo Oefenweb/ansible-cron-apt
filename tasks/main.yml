@@ -3,7 +3,7 @@
 - name: install
   apt:
     name: cron-apt
-    state: present
+    state: latest
   tags: [configuration, cron-apt, cron-apt-install]
 
 - name: update configuration file
