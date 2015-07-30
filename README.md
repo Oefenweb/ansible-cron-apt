@@ -23,7 +23,7 @@ None
 ---
 - hosts: all
   roles:
-  - cron-apt
+    - cron-apt
 ```
 
 #### License
