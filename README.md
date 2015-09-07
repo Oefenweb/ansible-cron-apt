@@ -12,6 +12,7 @@ None
 
 * `cron_apt_mailto`: [default: `root`]: The email address to send mail to
 * `cron_apt_mailon`: [default: `upgrade`]: When to send email about the cron-apt results
+* `cron_apt_options`: [optional]: General apt options that will be passed to all `APTCOMMAND` calls
 
 ## Dependencies
 

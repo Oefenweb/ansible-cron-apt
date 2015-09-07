@@ -137,6 +137,9 @@ MAILON="{{ cron_apt_mailon }}"
 # To limit the bandwidth used use the following line. This example limit the
 # bandwidth usage to 25 kB/s.
 # OPTIONS="-o Acquire::http::Dl-Limit=25"
+{% if cron_apt_options is defined %}
+OPTIONS="{{ cron_apt_options }}"
+{% endif %}
 
 # additional APT configuration file that is loaded first. This can be set in
 # order to use a completely different APT configuration for cron-apt. See the
