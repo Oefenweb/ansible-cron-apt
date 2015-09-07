@@ -137,7 +137,7 @@ MAILON="{{ cron_apt_mailon }}"
 # To limit the bandwidth used use the following line. This example limit the
 # bandwidth usage to 25 kB/s.
 # OPTIONS="-o Acquire::http::Dl-Limit=25"
-{% if (cron_apt_options is defined) and (cron_apt_options != None) %}
+{% if cron_apt_options is defined %}
 OPTIONS="{{ cron_apt_options }}"
 {% endif %}
 
