@@ -2,3 +2,6 @@
 ---
 cron_apt_mailto: root
 cron_apt_mailon: upgrade
+
+# options of apt (default blank)
+cron_apt_options:
