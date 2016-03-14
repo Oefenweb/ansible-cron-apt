@@ -44,7 +44,7 @@ before_install:
   - sudo apt-get update -qq
 
   # Remove cron-apt
-  - sudo apt-get remove --purge cron-apt
+  - sudo apt-get remove --purge --yes cron-apt
 
 install:
   # Install Ansible.
