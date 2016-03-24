@@ -2,3 +2,4 @@
 ---
 cron_apt_mailto: root
 cron_apt_mailon: upgrade
+cron_apt_syslogon: false
