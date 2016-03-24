@@ -102,10 +102,8 @@ MAILON="{{ cron_apt_mailon }}"
 #	 output  (syslog when output is generated)
 #        always  (always syslog)
 #                (else never syslog)
-{% if cron_apt_syslogon %}
+{% if cron_apt_syslogon is defined %}
 SYSLOGON="{{ cron_apt_syslogon }}"
-{% else %}
-# SYSLOGON="upgrade"
 {% endif %}
 
 # Value: error   (exit on error only)
