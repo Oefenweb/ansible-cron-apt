@@ -1,6 +1,6 @@
 ## cron-apt
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-cron-apt.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-cron-apt) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-cron--apt-blue.svg)](https://galaxy.ansible.com/list#/roles/1416)
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-cron-apt.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-cron-apt) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-cron--apt-blue.svg)](https://galaxy.ansible.com/Oefenweb/cron-apt)
 
 Set up cron-apt in Debian-like systems.
 
