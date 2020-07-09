@@ -13,8 +13,8 @@
 
 - name: update configuration file
   template:
-    src: etc/cron-apt/config.j2
-    dest: /etc/cron-apt/config
+    src: "{{ cron_apt_etc_cron_apt_conf_file.lstrip('/') }}.j2"
+    dest: "{{ cron_apt_etc_cron_apt_conf_file }}"
     owner: root
     group: root
     mode: 0644

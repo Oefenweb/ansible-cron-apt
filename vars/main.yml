@@ -2,3 +2,5 @@
 ---
 cron_apt_dependencies:
   - cron-apt
+
+cron_apt_etc_cron_apt_conf_file: /etc/cron-apt/config
