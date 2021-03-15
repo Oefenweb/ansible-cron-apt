@@ -1,6 +1,7 @@
-# meta file for cron-apt
+# meta file
 ---
 galaxy_info:
+  namespace: oefenweb
   role_name: cron-apt
   author: Mischa ter Smitten
   company: Oefenweb.nl B.V.

@@ -1,4 +1,4 @@
-# tasks file for cron-apt
+# tasks file
 ---
 - name: install
   apt:

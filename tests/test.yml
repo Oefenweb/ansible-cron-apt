@@ -1,4 +1,4 @@
-# test file for cron-apt
+# test file
 ---
 - hosts: localhost
   connection: local

@@ -1,4 +1,4 @@
-# vars file for cron-apt
+# vars file
 ---
 cron_apt_dependencies:
   - cron-apt
