@@ -1,6 +1,6 @@
 # tasks file
 ---
-- name: install
+- name: install dependencies
   apt:
     name: "{{ cron_apt_dependencies }}"
     state: "{{ apt_install_state | default('latest') }}"
@@ -10,6 +10,17 @@
     - configuration
     - cron-apt
     - cron-apt-install
+    - cron-apt-install-dependencies
+
+- name: install additional
+  apt:
+    name: "{{ cron_apt_install }}"
+    state: "{{ apt_install_state | default('latest') }}"
+  tags:
+    - configuration
+    - cron-apt
+    - cron-apt-install
+    - cron-apt-install-additional
 
 - name: update configuration file
   template:

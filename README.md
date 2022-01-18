@@ -7,7 +7,7 @@ Set up cron-apt in Debian-like systems.
 
 #### Requirements
 
-None
+* `dotlockfile` (will be installed)
 
 #### Variables
 
