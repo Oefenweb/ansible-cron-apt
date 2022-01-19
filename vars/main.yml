@@ -2,5 +2,6 @@
 ---
 cron_apt_dependencies:
   - cron-apt
+  - liblockfile-bin
 
 cron_apt_etc_cron_apt_conf_file: /etc/cron-apt/config

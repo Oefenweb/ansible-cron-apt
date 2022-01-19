@@ -7,7 +7,7 @@ Set up cron-apt in Debian-like systems.
 
 #### Requirements
 
-None
+* `liblockfile-bin` (will be installed)
 
 #### Variables
 
