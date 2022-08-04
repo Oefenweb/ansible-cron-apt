@@ -1,7 +1,7 @@
 # tasks file
 ---
 - name: install
-  apt:
+  ansible.builtin.apt:
     name: "{{ cron_apt_dependencies }}"
     state: "{{ apt_install_state | default('latest') }}"
     update_cache: true
@@ -12,7 +12,7 @@
     - cron-apt-install
 
 - name: update configuration file
-  template:
+  ansible.builtin.template:
     src: "{{ cron_apt_etc_cron_apt_conf_file.lstrip('/') }}.j2"
     dest: "{{ cron_apt_etc_cron_apt_conf_file }}"
     owner: root
