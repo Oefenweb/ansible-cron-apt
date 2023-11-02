@@ -26,7 +26,7 @@ None
 ---
 - hosts: all
   roles:
-    - cron-apt
+    - oefenweb.cron-apt
 ```
 
 #### License
