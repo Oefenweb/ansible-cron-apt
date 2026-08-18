@@ -17,7 +17,7 @@
     dest: "{{ cron_apt_etc_cron_apt_conf_file }}"
     owner: root
     group: root
-    mode: 0644
+    mode: '0644'
   tags:
     - configuration
     - cron-apt
